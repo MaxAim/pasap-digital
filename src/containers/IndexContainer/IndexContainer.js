@@ -1,8 +1,9 @@
+import MainCarousel from "../../components/Carousel/Carousel";
 import "./IndexContainer.css"
 
 function IndexContainer() {
     return (
-        <main className={"Main"}></main>
+        <main className={"index"}><MainCarousel /></main>
     );
   }
   

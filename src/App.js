@@ -8,13 +8,8 @@ function App() {
   return (
     <BrowserRouter>
       <NavBar />
-      <IndexContainer />
       <Switch>
-        <Route
-          exact
-          path="/"
-          component={() => <IndexContainer />}
-        />
+        <Route exact path="/" component={() => <IndexContainer />} />
       </Switch>
     </BrowserRouter>
   );

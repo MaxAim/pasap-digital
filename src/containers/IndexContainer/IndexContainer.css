@@ -1,5 +1,9 @@
-.Main{
-    background-color: white;
+.index{
     width: 100%;
     height: 740px;;
+    margin-top: 9vw;
+}
+
+html, .index{
+    background-color: aliceblue;
 }

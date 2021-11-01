@@ -18,11 +18,6 @@ header{
     transform: scaleY(1);
 }
 
-.top img{
-    transition-duration: 1s;
-    transform: scale(1, 1);
-    margin-left: 4vw;
-}
 
 .small{
     transition-duration: 1s;
@@ -30,10 +25,18 @@ header{
     transform: scaleY(1);
 }
 
+.top img{
+    transition-duration: 1s;
+    transform: scale(1, 1);
+    margin-left: 4vw;
+    height: 5vw;
+}
+
 .small img{
     transition-duration: 1s;
     transform: scale(0.7, 0.7);
     margin-left: 2.3vw;
+    height: 5vw;
 }
 
 .links{

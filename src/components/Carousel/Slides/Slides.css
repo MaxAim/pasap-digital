@@ -1,17 +1,19 @@
-.slide{
+.slides{
     display: flex;
     justify-content: flex-end;
 }
 
-.slide img{
-    width: 50%;
-    height: auto;
+.slides img{
+    max-width: 50%;
+    height: fit-content;
+    align-self: center;
 }
 
 .slideText{
     display: grid;
     justify-content: center;
     width: 40%;
+
 }
 
 button{
@@ -19,4 +21,28 @@ button{
     color: white;
     border: none;
     border-radius: 4px;
+    width: 10vw;
+    height: 4vw;
+    font-size: 1vw;
+}
+
+h1{
+    font-size: 1.5vw;
+    font-family: Ubuntu;
+    color: #505D68;
+    margin:0;
+}
+
+p{
+    font-size: 1vw;
+    color: #A1AEB7;
+}
+
+.slide2 h1{
+    font-size: 4vw;
+}
+
+.arrows{
+    background-color: none;
+    bottom: 60%;
 }

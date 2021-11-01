@@ -1,0 +1,10 @@
+.carousel{
+    height: 45vw;
+    padding-top: 2.5vw;
+}
+.carousel-indicators button{
+    background-color: #5DA9A6;
+    width: 1vw;
+    height: 1vw;
+    border-radius: 100%;
+}

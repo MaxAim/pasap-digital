@@ -7,11 +7,12 @@
 }
 
 .slide2{
-    background: url(../../../img/slide2.png) no-repeat 90% top / 50%;
+    background: url(../../../img/slide2.png) no-repeat 90% top / 65%;
+    height: 55vw;
 }
 
 .slide3{
-    background: url(../../../img/slide3.png) no-repeat right top / 50%;
+    background: url(../../../img/slide3.png) no-repeat right bottom / 60%;
 }
 
 button{
@@ -62,6 +63,22 @@ button{
 
 .slide3 p{
     margin: 6% 0% 6% 0%;
+}
+
+.slide2 a{
+    position: absolute;
+    right: 8vw;
+    bottom: 14vw;
+    z-index: 5;
+}
+
+.slide2 img{
+    width: 10vw;
+    height: 2.7vw;
+}
+
+.slide2 a:nth-child(2n){
+    bottom: 19vw;
 }
 
 .arrows{

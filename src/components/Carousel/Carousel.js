@@ -13,13 +13,13 @@ const MainCarousel = () => {
   const prevIcon = <img src={prevArrow} className="arrows prevArrow" alt="<" />;
     return (
     <Carousel variant="dark" nextIcon={nextIcon} prevIcon={prevIcon} pause={"hover"}>
-      <Carousel.Item interval={200000}>
+      <Carousel.Item interval={5000}>
         <Slide1 />
       </Carousel.Item>
-      <Carousel.Item interval={200000}>
+      <Carousel.Item interval={5000}>
         <Slide2 />
       </Carousel.Item>
-      <Carousel.Item interval={200000}>
+      <Carousel.Item interval={5000}>
         <Slide3 />
       </Carousel.Item>
     </Carousel>

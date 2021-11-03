@@ -2,9 +2,23 @@
     height: 45vw;
     padding-top: 2.5vw;
 }
+
+.carousel-indicators{
+    justify-content: flex-start !important;
+    margin-left: 10% !important;
+}
+
 .carousel-indicators button{
-    background-color: #5DA9A6;
-    width: 1vw;
-    height: 1vw;
+    width: 0.3vw !important;
+    height: 0.3vw !important;
     border-radius: 100%;
+    background-color: transparent !important;
+    border: 0.2vw solid #A1AEB7 !important;
+    margin-right: 1% !important;
+}
+
+.carousel-indicators .active{
+    background-color: #5DA9A6 !important;
+    border: 0.15vw solid #5DA9A6 !important;
+    margin: 0.05vw;
 }

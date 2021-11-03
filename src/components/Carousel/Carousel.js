@@ -9,17 +9,17 @@ import Slide2 from "./Slides/Slide2"
 import Slide3 from "./Slides/Slide3"
 
 const MainCarousel = () => {
-  const nextIcon = <img src={nextArrow} className="arrows nextArrow" />;
-  const prevIcon = <img src={prevArrow} className="arrows prevArrow" />;
+  const nextIcon = <img src={nextArrow} className="arrows nextArrow" alt=">" />;
+  const prevIcon = <img src={prevArrow} className="arrows prevArrow" alt="<" />;
     return (
-    <Carousel variant="dark" nextIcon={nextIcon} prevIcon={prevIcon}>
+    <Carousel variant="dark" nextIcon={nextIcon} prevIcon={prevIcon} pause={"hover"}>
       <Carousel.Item interval={200000}>
         <Slide1 />
       </Carousel.Item>
       <Carousel.Item interval={200000}>
         <Slide2 />
       </Carousel.Item>
-      <Carousel.Item>
+      <Carousel.Item interval={200000}>
         <Slide3 />
       </Carousel.Item>
     </Carousel>

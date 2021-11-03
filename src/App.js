@@ -20,7 +20,7 @@ function App() {
     <BrowserRouter>
       <NavBar loaded={loaded}/>
       <Switch>
-        <Route exact path="/" component={() => loaded === true ? <IndexContainer /> : <Loader />} />
+        <Route path="/" component={() => loaded === true ? <IndexContainer /> : <Loader />} />
       </Switch>
     </BrowserRouter>
   );

@@ -1,0 +1,38 @@
+#iconBackground{
+    background: url(../../img/loading.png) no-repeat top center / 50vw auto;
+	position: absolute;
+	width: 100vw;
+    height: 100vh;
+}
+
+#opacity{
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(240, 248, 255, 0.5);
+    z-index: 999;
+    position: absolute;
+	bottom: 0px;
+	animation: 10s infinite linear loadingAnimation;
+}
+
+header{
+    display: none;
+}
+
+@keyframes loadingAnimation {
+	0% {
+		bottom: 30vh;
+	}
+	
+	25% {
+		bottom: 50vh;
+	}
+	
+	70% {
+		bottom: 60vh;
+	}
+	
+	90% {
+		bottom: 70vh;
+	}
+}

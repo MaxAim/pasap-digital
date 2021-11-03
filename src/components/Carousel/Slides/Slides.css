@@ -3,7 +3,7 @@
 }
 
 .slide1{
-    background: url(../../../img/slide1.png) no-repeat right 80% / 75%;
+    background: url(../../../img/slide1.png) no-repeat right 80% / 70%;
 }
 
 .slide2{
@@ -23,7 +23,9 @@ button{
     height: 2.4vw;
     font-size: 0.7vw;
     font-family: ubuntu;
-    margin-left: -1%;
+    margin-left: -0.5%;
+    position: absolute;
+    z-index: 5;
 }
 
 .slideText{
@@ -32,10 +34,10 @@ button{
 }
 
 .slideText h1{
-    font-size: 1.7vw;
+    font-size: 2vw;
     font-family: Ubuntu;
     color: #505D68;
-    width: 60%;
+    width: 70%;
     margin-top: 5%;
 }
 

@@ -3,7 +3,7 @@ import "./NavBar.css";
 import { NavLink } from "react-router-dom";
 import logo from "../../img/pasap-digital.png";
 
-const NavBar = () => {
+const NavBar = ({loaded}) => {
   let listener = null;
   const [scrollState, setScrollState] = useState("top");
 
@@ -27,7 +27,7 @@ const NavBar = () => {
 
 
   return (
-    <header className={scrollState}>
+    <header className={scrollState} style={{display: loaded && "flex"}}>
       <NavLink to={"/"} className={"mainIcon"} activeClassName={"off"}>
         <img src={logo} alt={"Pasaporte Sanitario"} />
       </NavLink>

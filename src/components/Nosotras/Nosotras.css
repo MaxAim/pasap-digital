@@ -22,7 +22,7 @@
     width: 35vw;
     color: black;
     margin: 0;
-
+    font-size: 1vw;
 }
 
 .acerca{
@@ -33,4 +33,5 @@
 .acerca a{
     color: black;
     text-decoration: none;
+    font-size: 1vw;
 }

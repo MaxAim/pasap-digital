@@ -38,6 +38,10 @@
     margin-top: 10vw;
 }
 
+.solucion h1{
+    font-size: 3vw;
+}
+
 .blockchain .row{
     background-color: white;
     padding-top: 20vw;

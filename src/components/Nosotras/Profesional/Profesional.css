@@ -38,8 +38,14 @@ h6{
     width: 60%;
     border-bottom: 0.1vw solid #0A3697;
     padding: 0 0 0.5vw 0 !important;
+    font-size: 1vw;
+}
+
+.profesional b{
+    font-size: 1vw;
 }
 
 .profesional a{
     padding: 0.5vw;
+    font-size: 1vw;
 }

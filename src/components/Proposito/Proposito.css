@@ -1,0 +1,61 @@
+.container{
+    display: inline;
+    position: relative;
+    top: 10vw;
+}
+
+.row img {
+    width: 50%;
+    height: min-content;
+    padding: 0;
+}
+
+.row{
+    margin: 0;
+}
+
+.col{
+    padding: 5vw 12vw 0 10vw;
+    margin-top: 5vw;
+}
+
+.container h1{
+    font-size: 4vw;
+    font-family: Ubuntu;
+    color: #5DA9A6;
+}
+
+.container p{
+    font-size: 1vw;
+    margin-top: 5%;
+}
+
+.solucion{
+    display: flex;
+    flex-flow: column;
+    width: 40%;
+    text-align: center;
+    margin-top: 10vw;
+}
+
+.blockchain .row{
+    background-color: white;
+    padding-top: 20vw;
+}
+
+.blockchain h1{
+    font-size: 3.1vw;
+    font-family: Ubuntu;
+    color: #5DA9A6;
+    width: 150%;
+    bottom: 4vw;
+    position: relative;
+}
+
+.blockchain p{
+    color: #A1AEB7;
+}
+
+.blockchain img{
+    padding-right: 15%;
+}

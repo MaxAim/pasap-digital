@@ -1,0 +1,45 @@
+.profesional{
+    background-color: #3F5784;
+    width: 20vw;
+    box-shadow: 0px 0px 10px rgba(112, 111, 111, 0.5);
+    border-radius: 2px;
+    margin: 5vw 3vw 5vw 3vw;
+    display: grid;
+    justify-items: center;
+    height: 30vw;
+}
+
+.profesional .foto{
+    width: 8vw;
+    margin: 3vw 0vw 1vw 0vw;
+}
+
+.profesional img{
+    width: 2vw;
+}
+
+.profesional p, .profesional b, .profesional h6{
+    color: white;
+    text-align: center;
+    padding: 0 3vw 0 3vw;
+}
+
+.profesional span{
+    justify-content: center;
+    display: flex;
+    padding: 2vw;
+}
+
+.profesional p{
+    font-size: 0.8vw;
+}
+
+h6{
+    width: 60%;
+    border-bottom: 0.1vw solid #0A3697;
+    padding: 0 0 0.5vw 0 !important;
+}
+
+.profesional a{
+    padding: 0.5vw;
+}

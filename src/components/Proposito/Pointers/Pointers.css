@@ -1,0 +1,31 @@
+.pointersContainer{
+    justify-content: center;
+    display: flex;
+}
+
+.pointersContainer .row{
+    justify-content: space-around;
+    width: 100%;
+}
+
+.pointers{
+    display: flex;
+    background-color: white;
+    width: 18vw;
+    padding: 0;
+    flex: none;
+    flex-flow: column;
+    box-shadow: 0px 0px 4px rgba(159, 159, 159, 0.6);
+    align-items: center;
+    margin-bottom: 10vw;
+}
+
+.pointers p{
+    text-align: center;
+    padding: 3vw;
+}
+
+.pointers img{
+    width: 6vw;
+    margin-top: 3vw;
+}

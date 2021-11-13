@@ -1,0 +1,36 @@
+.nosotras{
+    margin-top: 15vw;
+}
+
+.nosotras span{
+    display: flex;
+    justify-content: center;
+}
+
+.nosotras h1{
+    text-align: center;
+    color: #505D68;
+    font-size: 3vw;
+    margin-bottom: 1vw;
+}
+
+.nosotras p{
+    text-align: center;
+}
+
+.acerca p{
+    width: 35vw;
+    color: black;
+    margin: 0;
+
+}
+
+.acerca{
+    display: grid;
+    justify-items: center;
+}
+
+.acerca a{
+    color: black;
+    text-decoration: none;
+}

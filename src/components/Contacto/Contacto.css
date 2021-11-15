@@ -1,4 +1,69 @@
 .contacto{
     color: white;
     background-color: #4368A9;
+    align-items: center;
+    display: flex;
+    flex-flow: column;
+    font-size: 1vw;
+}
+
+.contacto h1{
+    margin: 8vw 0 6vw 0;
+    font-size: 4vw;
+}
+
+form{
+    display: grid;
+}
+
+.formulario{
+    display:flex;
+    width: 50vw;
+    padding-bottom: 5vw;
+}
+
+input, textarea{
+    margin-bottom: 1vw;
+    border-radius: 4px;
+}
+
+.submit{
+    background-color: #8DA5D2;
+    color: white;
+    border: transparent;
+    height: 2vw;
+}
+
+input{
+    width: 20vw;
+    height: 2.5vw;
+}
+
+textarea{
+    height: 5vw;
+}
+
+::placeholder{
+    color: #C2D1D9;
+}
+
+.formulario span{
+    padding-right: 6vw;
+    color: #C2D1D9;
+
+}
+
+p img{
+    margin-right: 1vw;
+    width: 1.5vw;
+}
+
+.formulario p{
+    margin: 1vw 0 0 0;
+}
+
+.redes img{
+    padding-right: 2vw;
+    margin: 1vw -0.4vw;
+    width: 4vw;
 }

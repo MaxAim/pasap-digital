@@ -1,6 +1,5 @@
 import React, {useState, useEffect} from "react";
 import "./NavBar.css";
-import { NavLink } from "react-router-dom";
 import logo from "../../img/pasap-digital.png";
 
 const NavBar = ({loaded}) => {
@@ -28,22 +27,22 @@ const NavBar = ({loaded}) => {
 
   return (
     <header className={scrollState} style={{display: loaded && "flex"}}>
-      <NavLink to={"/"} className={"mainIcon"} activeClassName={"off"}>
+      <div className={"mainIcon"} onClick={() => window.location.replace("/#")}>
         <img src={logo} alt={"Pasaporte Sanitario"} />
-      </NavLink>
+      </div>
       <span className={"links"}>
-        <NavLink to={"/salud"} activeClassName={"off"} className={"NavLink"}>
+        <div className={"NavLink"} onClick={() => window.location.replace("/#salud")}>
           SALUD
-        </NavLink>
-        <NavLink to={"/tecnologia"} activeClassName={"off"} className={"NavLink"}>
+        </div>
+        <div className={"NavLink"} onClick={() => window.location.replace("/#tecnologia")}>
           TECNOLOGÍA
-        </NavLink>
-        <NavLink to={"/nosotros"} activeClassName={"off"} className={"NavLink"}>
+        </div>
+        <div className={"NavLink"} onClick={() => window.location.replace("/#nosotras")}>
           QUIENES SOMOS
-        </NavLink>
-        <NavLink to={"/contacto"} activeClassName={"off"} className={"NavLink"}>
+        </div>
+        <div className={"NavLink"} onClick={() => window.location.replace("/#contacto")}>
           CONTACTO
-        </NavLink>
+        </div>
       </span>
     </header>
   );

@@ -13,7 +13,7 @@ import blockchain from "../../img/blockchain.png";
 const Proposito = () => {
     return (
     <div>
-        <Container>
+        <Container id={"salud"} >
             <Row>
                 <img src={propositoImg} alt="" />
                 <Col>
@@ -46,6 +46,7 @@ const Proposito = () => {
         </Container>
         <Container className="blockchain">
             <Row>
+                <div  id="tecnologia" />
                 <Col>
                     <h1>¿Qué aporta la</h1>
                     <h1>tecnología Blockchain?</h1>

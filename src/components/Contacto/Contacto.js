@@ -1,5 +1,6 @@
 import React, { useRef } from 'react';
 import emailjs, { init } from 'emailjs-com';
+import { useHistory } from "react-router-dom";
 import "./Contacto.css"
 import mail from "../../img/mailInverse.png";
 import phone from "../../img/phone.png";
@@ -11,14 +12,15 @@ import facebook from "../../img/facebook.png";
 const Contacto = () => {
     init("user_xeXq38KJSQF8B4Jb3RGuh");
     const form = useRef();
+    let history = useHistory()
 
     const sendEmail = (e) => {
         e.preventDefault();
-        emailjs.sendForm('service_ng061r8', 'template_1u2vdda', form.current, 'user_xeXq38KJSQF8B4Jb3RGuh')
+        emailjs.sendForm('service_ng061r8', 'template_1u2vdda', form.current, 'user_xeXq38KJSQF8B4Jb3RGuh').then(history.push("/gracias"))
     };
 
     return(
-        <div className="contacto">
+        <div className="contacto" id="contacto">
             <h1>Contacto</h1>
             <div className="formulario" >
                 <span>

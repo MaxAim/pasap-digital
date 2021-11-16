@@ -4,6 +4,7 @@ import { BrowserRouter, Route, Switch } from "react-router-dom";
 import NavBar from "./components/NavBar/NavBar";
 import IndexContainer from "./containers/IndexContainer/IndexContainer";
 import Loader from "./components/Loader/Loader"
+import Gracias from './components/Gracias/Gracias';
 
 function App() {
   const [loaded, setLoaded] = useState(false)
@@ -20,6 +21,7 @@ function App() {
     <BrowserRouter>
       <NavBar loaded={loaded}/>
       <Switch>
+        <Route exact path="/gracias" component={() => loaded === true ? <Gracias /> : <Loader />} />
         <Route path="/" component={() => loaded === true ? <IndexContainer /> : <Loader />} />
       </Switch>
     </BrowserRouter>

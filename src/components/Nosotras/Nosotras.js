@@ -6,6 +6,7 @@ import veronica from "../../img/veronica.png"
 const Nosotras = ({ blockchain }) => {
     return (
     <div className="nosotras">
+        <div id="nosotras" />
         <div className="acerca">
             <h1>Acerca de nosotras</h1>
             <p><a href="blockchainar.com.ar">Blockchainar.com.ar</a> es un emprendimiento de dos ingenieras con mucha experiencia profesional y académica en tecnología y mercado.</p>

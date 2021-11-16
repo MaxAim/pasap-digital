@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/pasap-digital/static/css/main.d5fc49bb.chunk.css",
-    "main.js": "/pasap-digital/static/js/main.92d78ea1.chunk.js",
-    "main.js.map": "/pasap-digital/static/js/main.92d78ea1.chunk.js.map",
+    "main.js": "/pasap-digital/static/js/main.f4d94c23.chunk.js",
+    "main.js.map": "/pasap-digital/static/js/main.f4d94c23.chunk.js.map",
     "runtime-main.js": "/pasap-digital/static/js/runtime-main.c9c354ce.js",
     "runtime-main.js.map": "/pasap-digital/static/js/runtime-main.c9c354ce.js.map",
     "static/css/2.0a9ec390.chunk.css": "/pasap-digital/static/css/2.0a9ec390.chunk.css",
@@ -28,6 +28,6 @@
     "static/css/2.0a9ec390.chunk.css",
     "static/js/2.4f912478.chunk.js",
     "static/css/main.d5fc49bb.chunk.css",
-    "static/js/main.92d78ea1.chunk.js"
+    "static/js/main.f4d94c23.chunk.js"
   ]
 }

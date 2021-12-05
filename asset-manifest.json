@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/pasap-digital/static/css/main.47bb8969.chunk.css",
+    "main.css": "/pasap-digital/static/css/main.c032fd2e.chunk.css",
     "main.js": "/pasap-digital/static/js/main.a0335398.chunk.js",
     "main.js.map": "/pasap-digital/static/js/main.a0335398.chunk.js.map",
     "runtime-main.js": "/pasap-digital/static/js/runtime-main.d7ed8617.js",
@@ -12,7 +12,7 @@
     "static/js/3.85164d78.chunk.js.map": "/pasap-digital/static/js/3.85164d78.chunk.js.map",
     "index.html": "/pasap-digital/index.html",
     "static/css/2.0a9ec390.chunk.css.map": "/pasap-digital/static/css/2.0a9ec390.chunk.css.map",
-    "static/css/main.47bb8969.chunk.css.map": "/pasap-digital/static/css/main.47bb8969.chunk.css.map",
+    "static/css/main.c032fd2e.chunk.css.map": "/pasap-digital/static/css/main.c032fd2e.chunk.css.map",
     "static/js/2.6d2dae88.chunk.js.LICENSE.txt": "/pasap-digital/static/js/2.6d2dae88.chunk.js.LICENSE.txt",
     "static/media/blockchain.659d0cd0.png": "/pasap-digital/static/media/blockchain.659d0cd0.png",
     "static/media/cecilia.513f19ad.png": "/pasap-digital/static/media/cecilia.513f19ad.png",
@@ -29,7 +29,7 @@
     "static/js/runtime-main.d7ed8617.js",
     "static/css/2.0a9ec390.chunk.css",
     "static/js/2.6d2dae88.chunk.js",
-    "static/css/main.47bb8969.chunk.css",
+    "static/css/main.c032fd2e.chunk.css",
     "static/js/main.a0335398.chunk.js"
   ]
 }

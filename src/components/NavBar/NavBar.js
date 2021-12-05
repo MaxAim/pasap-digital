@@ -56,7 +56,7 @@ const NavBar = ({pasap}) => {
         <img src={logoBlock} alt={"BlockChainAR"} />
       </div>
       <span className={"links"}>
-        <div className={"NavLink"} onClick={() => window.location.replace("/#tecnologia")}>
+        <div className={"NavLink"} onClick={() => window.location.replace("/#")}>
           TECNOLOGÍA
         </div>
         <div className={"NavLink"} onClick={() => window.location.replace("/#productos")}>

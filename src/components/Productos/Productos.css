@@ -1,0 +1,98 @@
+.productos{
+    padding-bottom: 10vw;
+}
+
+.productosImg{
+    border-radius: 10px;
+    height: 19vw;
+    width: 11.7vw;
+    margin: 2vw;
+    color: white;
+    font-size: 2.1vw;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 900;
+}
+
+.productos > div{
+    display: flex;
+    justify-content: center;
+    margin-top: 5vw;
+}
+
+.productos > span{
+    text-align: center;
+    width: 20vw;
+}
+
+.productos p{
+    padding: 0 30vw;
+    font-size: 1vw;
+    color: #A1AEB7;
+    margin-bottom: 0;
+}
+
+.productos h1{
+    color: #505D68;
+    font-size: 3vw;
+    padding-top: 10vw;
+}
+
+.productosOpacity{
+    height: 19vw;
+    width: 11.7vw;
+    position: absolute;
+    opacity: 0.5;
+    z-index: 2;
+    border-radius: 10px;
+}
+
+.productosLinks{
+    color: white;
+    position: absolute;
+    z-index: 3;
+    padding: 0;
+    text-decoration: none;
+}
+
+#wine{
+    background: url(../../img/wine.png) round;
+}
+
+#wine .productosLinks{
+    font-size: 2vw;
+}
+
+#wine .productosOpacity{
+    background: #E7B84C;
+}
+
+#water{
+    background: url(../../img/water.png);
+}
+
+#vacations{
+    background: url(../../img/vacations.png) round;
+}
+
+#vacations .productosOpacity{
+    background: #5DA9A6;
+}
+
+#vacations .productosLinks{
+    font-size: 1.5vw;
+}
+
+#vet{
+    background: url(../../img/vet.png);
+}
+
+#vet .productosLinks{
+    color: #4D7DE8;
+}
+
+#vet .productosLinks:hover{
+    color: white;
+}

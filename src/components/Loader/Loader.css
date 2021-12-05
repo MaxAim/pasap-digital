@@ -15,10 +15,6 @@
 	animation: 10s infinite linear loadingAnimation;
 }
 
-header{
-    display: none;
-}
-
 @keyframes loadingAnimation {
 	0% {
 		bottom: 10%;

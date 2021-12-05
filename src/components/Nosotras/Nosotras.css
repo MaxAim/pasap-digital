@@ -1,5 +1,6 @@
 .nosotras{
-    margin-top: 15vw;
+    padding-top: 15vw;
+    background-color: white;
 }
 
 .nosotras span{
@@ -9,7 +10,7 @@
 
 .nosotras h1{
     text-align: center;
-    color: #505D68;
+    color: #126CA7;
     font-size: 3vw;
     margin-bottom: 1vw;
 }
@@ -39,4 +40,37 @@
 #nosotras{
     position: relative;
     bottom: 5vw;
+}
+
+.nosotrasBlockContainer{
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 18vw 0 18vw;
+}
+
+.nosotrasBlock{
+    width: 20vw;
+    color: black;
+    margin: 0;
+    font-size: 1vw;
+}
+
+.nosotrasBlock h2{
+    font-size: 1.8vw;
+    position: relative;
+}
+
+.nosotrasBlock p{
+    text-align: start;
+    font-size: 1vw;
+    color: #A1AEB7;
+}
+
+.nosotrasBlock h1{
+    position: relative;
+    font-size: 16vw;
+    color: #5C96C6;
+    right: 5.5vw;
+    top: 6vw;
+    opacity: 0.3;
 }

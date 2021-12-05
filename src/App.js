@@ -1,28 +1,17 @@
 import './App.css';
-import React, {useEffect, useState} from "react";
+import React from "react";
 import { BrowserRouter, Route, Switch } from "react-router-dom";
-import NavBar from "./components/NavBar/NavBar";
-import IndexContainer from "./containers/IndexContainer/IndexContainer";
-import Loader from "./components/Loader/Loader"
+import PasapContainer from "./containers/PasapContainer/PasapContainer";
+import BlockChainContainer from "./containers/BlockChainContainer/BlockChainContainer";
 import Gracias from './components/Gracias/Gracias';
 
 function App() {
-  const [loaded, setLoaded] = useState(false)
-  function fakeRequest() {
-    return new Promise(resolve => setTimeout(() => resolve(), 10000));
-  }
-  useEffect(() => {
-    fakeRequest().then(() => {
-      setLoaded(true);
-    });
-    }, []);
-
   return (
     <BrowserRouter>
-      <NavBar loaded={loaded}/>
       <Switch>
-        <Route exact path="/gracias" component={() => loaded === true ? <Gracias /> : <Loader />} />
-        <Route path="/" component={() => loaded === true ? <IndexContainer /> : <Loader />} />
+        <Route exact path="/gracias" component={() => <Gracias />} />
+        <Route path="/pasap" component={() => <PasapContainer />} />
+        <Route path="/" component={() => <BlockChainContainer />} />
       </Switch>
     </BrowserRouter>
   );

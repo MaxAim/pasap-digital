@@ -1,8 +1,9 @@
 import React, {useState, useEffect} from "react";
 import "./NavBar.css";
-import logo from "../../img/pasap-digital.png";
+import logoPasap from "../../img/pasap-digital.png";
+import logoBlock from "../../img/blockchainAR.png"
 
-const NavBar = ({loaded}) => {
+const NavBar = ({pasap}) => {
   let listener = null;
   const [scrollState, setScrollState] = useState("top");
 
@@ -25,17 +26,41 @@ const NavBar = ({loaded}) => {
   }, [scrollState])
 
 
-  return (
-    <header className={scrollState} style={{display: loaded && "flex"}}>
+  if(pasap){
+    return (
+      <header className={scrollState}>
+        <div className={"mainIcon"} onClick={() => window.location.replace("/pasap/#")}>
+          <img src={logoPasap} alt={"Pasaporte Sanitario"} />
+        </div>
+        <span className={"links"}>
+          <div className={"NavLink"} onClick={() => window.location.replace("/pasap/#salud")}>
+            SALUD
+          </div>
+          <div className={"NavLink"} onClick={() => window.location.replace("/pasap/#tecnologia")}>
+            TECNOLOGÍA
+          </div>
+          <div className={"NavLink"} onClick={() => window.location.replace("/pasap/#nosotras")}>
+            QUIENES SOMOS
+          </div>
+          <div className={"NavLink"} onClick={() => window.location.replace("/pasap/#contacto")}>
+            CONTACTO
+          </div>
+        </span>
+      </header>
+    );
+  }
+
+    return (
+      <header className="blockNavBar">
       <div className={"mainIcon"} onClick={() => window.location.replace("/#")}>
-        <img src={logo} alt={"Pasaporte Sanitario"} />
+        <img src={logoBlock} alt={"BlockChainAR"} />
       </div>
       <span className={"links"}>
-        <div className={"NavLink"} onClick={() => window.location.replace("/#salud")}>
-          SALUD
-        </div>
         <div className={"NavLink"} onClick={() => window.location.replace("/#tecnologia")}>
           TECNOLOGÍA
+        </div>
+        <div className={"NavLink"} onClick={() => window.location.replace("/#productos")}>
+          PRODUCTOS
         </div>
         <div className={"NavLink"} onClick={() => window.location.replace("/#nosotras")}>
           QUIENES SOMOS

@@ -52,3 +52,11 @@ header{
     font-size: 0.8vw;
     cursor: pointer;
 }
+
+.blockNavBar{
+    height: 5vw;
+}
+
+.blockNavBar img{
+    margin-left: 4vw;
+}

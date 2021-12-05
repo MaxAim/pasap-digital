@@ -1,0 +1,63 @@
+.tecnologia{
+    display: flex;
+    background: white;
+    padding: 10vw;
+    margin-top: -5vw;
+}
+
+.nodo{
+    width: 35vw;
+    height: 50vw;
+}
+
+.blockInfo{
+    width: 50vw;
+}
+
+.check{
+    position: relative;
+}
+
+.shape{
+    height: 0.8vw;
+    right: 1.25vw;
+    top: 0.4vw;
+}
+
+.mask{
+    width: 1.5vw;
+    height: 1.5vw;
+}
+
+.blockPointers{
+    margin-top: 10vw;
+}
+
+.blockPointers > div{
+    display: flex;
+    margin-bottom: 2vw;
+}
+
+.blockPointers p{
+    font-size: 1vw;
+}
+
+.blockInfo button{
+    color: #8DA5D2;
+    background: white;
+    border: #8DA5D2 thin solid;
+    font-size: 0.8vw;
+    margin: 0.1vw;
+}
+
+.blockInfo p{
+    font-size: 1vw;
+    color: #A1AEB7;
+    width: 35vw;
+}
+
+.blockInfo h1{
+    font-size: 3.5vw;
+    color: #126CA7;
+    margin-bottom: 2vw;
+}

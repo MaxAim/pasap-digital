@@ -2,7 +2,7 @@ import "./Productos.css"
 
 const Productos = () => {
     return(
-        <div className="productos">
+        <div className="productos" id="productos">
             <span>
                 <h1>Productos</h1>
                 <p>Blockchainar.com.ar es un emprendimiento de dos ingenieras con mucha experiencia profesional y académica en tecnología y mercado.</p>

@@ -2,6 +2,7 @@ import "./BlockChain.css"
 import nodo from "../../img/nodo.png";
 import shape from "../../img/shape.png";
 import mask from "../../img/mask.png";
+import { Link } from "react-router-dom";
 
 const BlockChain = () => {
     return(
@@ -10,7 +11,7 @@ const BlockChain = () => {
                 <div>
                     <h1>Tecnología Blockchain</h1>
                     <p>En pocas palabras, si toda la información se puede concentrar en una tecnología como blockchain, la información queda accesible para todos los participantes que interactúan, de forma transparente, y fundamentalmente, se evitan intermediarios.</p>
-                    <button>VER MÁS</button>
+                    <Link to="/pasap-digital/tecno"><button>VER MÁS</button></Link>
                 </div>
                 <div className="blockPointers">
                     <div><img className="check mask" src={mask} alt="Check" /><img className="check shape" src={shape} alt="Check" /><p>Hay una necesidad de una base de datos común compartida</p></div>

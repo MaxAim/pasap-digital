@@ -1,0 +1,25 @@
+.soluciones{
+    width: 20vw;
+    height: 40vw;
+    background-color: #8DA5D2;
+    color: white;
+    display: grid;
+}
+
+.soluciones img{
+    width: 20vw;
+    height: 20vw;
+}
+
+.soluciones h2, .soluciones p{
+    margin: 0 1vw;
+}
+
+.soluciones h2{
+    font-size: 1.6vw;
+}
+
+.soluciones p{
+    font-size: 1vw;
+}
+

@@ -2,6 +2,7 @@ import React, {useState, useEffect} from "react";
 import "./NavBar.css";
 import logoPasap from "../../img/pasap-digital.png";
 import logoBlock from "../../img/blockchainAR.png"
+import { HashLink as Link } from 'react-router-hash-link';
 
 const NavBar = ({pasap}) => {
   let listener = null;
@@ -29,20 +30,20 @@ const NavBar = ({pasap}) => {
   if(pasap){
     return (
       <header className={scrollState}>
-        <div className={"mainIcon"} onClick={() => window.location.replace("/pasap/#")}>
+        <div className={"mainIcon"} onClick={() => window.location.replace("#")}>
           <img src={logoPasap} alt={"Pasaporte Sanitario"} />
         </div>
         <span className={"links"}>
-          <div className={"NavLink"} onClick={() => window.location.replace("/pasap/#salud")}>
+          <div className={"NavLink"} onClick={() => window.location.replace("#salud")}>
             SALUD
           </div>
-          <div className={"NavLink"} onClick={() => window.location.replace("/pasap/#tecnologia")}>
+          <div className={"NavLink"} onClick={() => window.location.replace("#tecnologia")}>
             TECNOLOGÍA
           </div>
-          <div className={"NavLink"} onClick={() => window.location.replace("/pasap/#nosotras")}>
+          <div className={"NavLink"} onClick={() => window.location.replace("#nosotras")}>
             QUIENES SOMOS
           </div>
-          <div className={"NavLink"} onClick={() => window.location.replace("/pasap/#contacto")}>
+          <div className={"NavLink"} onClick={() => window.location.replace("#contacto")}>
             CONTACTO
           </div>
         </span>
@@ -52,22 +53,22 @@ const NavBar = ({pasap}) => {
 
     return (
       <header className="blockNavBar">
-      <div className={"mainIcon"} onClick={() => window.location.replace("/#")}>
+      <Link to="/pasap-digital/#" >
         <img src={logoBlock} alt={"BlockChainAR"} />
-      </div>
+      </Link>
       <span className={"links"}>
-        <div className={"NavLink"} onClick={() => window.location.replace("/#")}>
+        <Link className={"NavLink"} to="/pasap-digital/#" >
           TECNOLOGÍA
-        </div>
-        <div className={"NavLink"} onClick={() => window.location.replace("/#productos")}>
+        </Link>
+        <Link className={"NavLink"} to="/pasap-digital/#productos">
           PRODUCTOS
-        </div>
-        <div className={"NavLink"} onClick={() => window.location.replace("/#nosotras")}>
+        </Link>
+        <Link className={"NavLink"} to="/pasap-digital/#nosotras">
           QUIENES SOMOS
-        </div>
-        <div className={"NavLink"} onClick={() => window.location.replace("/#contacto")}>
+        </Link>
+        <Link className={"NavLink"} to="/pasap-digital/#contacto">
           CONTACTO
-        </div>
+        </Link>
       </span>
     </header>
   );

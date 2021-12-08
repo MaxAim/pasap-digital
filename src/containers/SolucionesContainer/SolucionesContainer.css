@@ -1,0 +1,42 @@
+.solucionesContainer{
+    display: flex;
+}
+
+.solucionesContainer h1{
+    color: #126CA7;
+    font-size: 3vw;
+}
+
+.solucionesRowContainer{
+    display: flex;
+    gap: 2vw;
+}
+
+.solucionesSubContainer{
+    justify-content: center;
+    display: grid;
+    gap: 2vw;
+    margin-top: 7vw;
+}
+
+.solucionesSubContainer > h2{
+    text-align: center;
+    color: #126CA7;
+    font-size: 2vw;
+}
+
+.hexagons{    
+    width: 40vw;
+    height: 100vw;
+}
+
+.solucionesInfo{
+    width: 50vw;
+    margin-top: 7vw;
+}
+
+.solucionesInfo p{
+    margin: 0;
+    font-size: 1.2vw;
+    text-align: justify;
+}

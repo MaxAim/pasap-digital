@@ -1,0 +1,18 @@
+.arquitecturaPointers{
+    background-color: white;
+    width: 37vw;
+    color: #505D68;
+    padding: 1.5vw;
+    border-left: #334F82 0.8vw solid;
+    border-radius: 0.2vw 0 0 0.2vw;
+    height: 10vw;
+    font-size: 1vw;
+}
+
+.arquitecturaPointers li{
+    color: #415986;
+}
+
+.arquitecturaPointers li:first-of-type{
+    margin-top: 1vw;    
+}

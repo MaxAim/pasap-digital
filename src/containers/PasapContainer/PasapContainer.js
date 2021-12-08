@@ -5,6 +5,7 @@ import Nosotras from "../../components/Nosotras/Nosotras";
 import Proposito from "../../components/Proposito/Proposito";
 import NavBar from "../../components/NavBar/NavBar";
 import Loader from "../../components/Loader/Loader";
+import UpButton from "../../components/UpButton/UpButton";
 import "./PasapContainer.css"
 
 function PasapContainer() {
@@ -26,6 +27,7 @@ function PasapContainer() {
             <Proposito />
             <Nosotras pasap={true} />
             <Contacto />
+            <UpButton />
         </main>
     );}
     return <Loader />

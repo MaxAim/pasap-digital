@@ -4,12 +4,14 @@ import NavBar from "../../components/NavBar/NavBar";
 import Productos from "../../components/Productos/Productos";
 import "./BlockChainContainer.css";
 import BlockChain from "../../components/BlockChain/BlockChain";
+import UpButton from "../../components/UpButton/UpButton";
 
 function BlockChainContainer() {
     return (
         <main className={"index"}>
-            <BlockChain />
             <NavBar />
+            <UpButton />
+            <BlockChain />
             <Productos />
             <Nosotras />
             <Contacto />

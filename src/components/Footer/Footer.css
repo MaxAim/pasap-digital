@@ -1,0 +1,15 @@
+.footer{
+    background-color: #334F82;
+    height: 15vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column;
+    color: white;
+    font-size: 1vw;
+}
+
+.footer img{
+    width: 5vw;
+    height: 3vw;
+}

@@ -12,6 +12,10 @@ header{
     background-color: white;
 }
 
+header img{
+    cursor: pointer;
+}
+
 .top{
     height: 9vw;
     transition-duration: 1s;
@@ -59,4 +63,5 @@ header{
 
 .blockNavBar img{
     margin-left: 4vw;
+    height: 3vw;
 }

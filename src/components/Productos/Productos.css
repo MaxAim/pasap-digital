@@ -3,7 +3,7 @@
 }
 
 .productosImg{
-    border-radius: 10px;
+    border-radius: 0.5vw;
     height: 19vw;
     width: 11.7vw;
     margin: 2vw;
@@ -46,7 +46,7 @@
     position: absolute;
     opacity: 0.5;
     z-index: 2;
-    border-radius: 10px;
+    border-radius: 0.5vw;
 }
 
 .productosLinks{

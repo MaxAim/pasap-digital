@@ -1,0 +1,268 @@
+
+*,
+::before,
+::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+    font-family: "Ubuntu", sans-serif;
+}
+
+
+/* FirstPage */
+.grupoFamiliar {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.pasaporte1{
+    max-width: 85%;
+    margin: 0 0 20px 0px;
+    padding-top: 200px;
+}
+
+.pasaporte1 h1 {
+    color: #5DA9A6;
+    font-size: 66px;
+    font-weight: 400;
+    margin-bottom: 40px;
+    margin-left: 130px;
+    /* text-align: center; */
+}
+
+.pasaporte1 p{
+    font-weight: 400;
+    color: #271A11;
+    margin-top: 20px;
+    margin-left: 10%;
+}
+
+.caracteristicas {
+    margin-top: 100px;
+    margin-left: 170px;
+    width: 45%;
+}
+
+.caracteristicasPasaporte{
+    margin-top: 30px;
+}
+
+.textoCaracteristicas{
+    width: 70%;
+}
+
+.textoCaracteristicas p {
+    line-height: 1.6
+}
+
+.img-tilde{
+    margin-bottom: 10px;
+}
+.imagen-grafico {
+    width: 45%;
+}
+.imagen-grafico img{
+    margin-top: 30px;
+    object-fit: cover;
+}
+
+@media (max-width: 940px) {
+    .grupoFamiliar {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    .textoCaracteristicas{
+        width: 80%;
+    }
+    .textoCaracteristicas p {
+        line-height: 1.6
+    }
+
+}
+
+@media (max-width: 940px) {
+    .caracteristicas {
+        margin-top: 40px;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    .pasaporte1{
+        max-width: 100%;
+    }
+    .pasaporte1 h1 {
+        color: #5DA9A6;
+        font-size: 40px;
+        font-weight: 400;
+        margin: 0 20px 40px 20px;
+        /* text-align: center; */
+    }
+    .pasaporte1 p {
+        margin: 0 20px 0 20px;
+    }
+}
+
+/* SecondPage */
+
+.cardsContainer{
+    width: 100%;
+    margin: 30px 0 30px 0;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.card-1{
+    /* margin-top: 30px; */
+    width: 40%;
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.26);
+    -webkit-box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.26);
+    -moz-box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.26);
+    margin: 0 0 0 2rem;
+}
+
+.card-1 .cardLarge {
+    display: flex;
+}
+
+.card-1 img{
+    width: 150px;
+    height: 150px;
+    margin: 2rem 1rem 2rem 1rem;
+}
+
+.card-1 p{
+    color: #271A11;
+    /* margin: 2rem 1rem 2rem 1rem; */
+}
+
+.cards-2 {
+    width: 40%;
+    margin: 0 2rem 0 0;
+}
+
+.mb-2 {
+    margin: 0 0 2rem 0;
+}
+.mb-4 {
+    margin: 0 0 4rem 0;
+}
+
+
+.cards-2 .cardtype1 {
+    display: flex;
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.26);
+    -webkit-box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.26);
+    -moz-box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.26);
+    height: 480px;
+}
+
+.cards-2 .cardtype1 img{
+    width: 150px;
+    height: 150px;
+    margin: 2rem 1rem 2rem 1rem;
+}
+
+.cards-2 .cardtype1 p{
+    color: #271A11;
+    /* margin: 2rem 1rem 2rem 1rem; */
+}
+.parrafosFlex{
+    display: flex;
+    flex-direction: column;
+    margin: 2rem 1rem 2rem 1rem;
+}
+
+.medium-card{
+    width: 100%;
+    /* margin-top: 10px; */
+    display: flex;
+    justify-content: center;
+}
+
+.medium-card .card-single{
+    /* margin: 30px 140px 100px 200px; */
+    width: 84.2%;
+    display: flex;
+    justify-content: center;
+    height: 50%;
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.26);
+    -webkit-box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.26);
+    -moz-box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.26);
+}
+
+.medium-card .card-single img{
+    width: 150px;
+    height: 150px;
+    margin: 2rem 1rem 2rem 1rem;
+}   
+
+.medium-card .card-single p{
+    color: #271A11;
+    margin: 2rem 1rem 2rem 1rem;
+}
+
+@media (max-width: 1220px) {
+    .card-1, .cards-2, .card-single {
+        min-width: 96%;
+        margin: 1rem;
+    }
+}
+@media (max-width: 510px) {
+    .cards-2 .cardtype1, .card-1 .cardLarge {
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        height: auto;
+    }
+}
+
+
+/* ThirdPage */
+
+.saludInfantilh1{
+    text-align: center;
+    padding-top: 200px;
+    font-size: 66px;
+    color: #5DA9A6;
+}
+
+.saludInfantil {
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+}
+
+.parrafoInfo {
+    color: #271A11 ;
+    font-size: 19px;
+    margin: 60px 60px 100px 100px;
+}
+
+.parrafo2{
+    margin-top: 30px;
+    font-weight: 600;
+    color: #271A11 ;
+}
+
+.imagenSalud {
+    margin: 60px 100px 60px 100px;
+}
+/* .imagenSalud img {
+    max-height: 40%;
+} */
+
+@media (max-width: 1300px) {
+    .saludInfantil {
+        flex-wrap: wrap;
+    }
+    .imagenSalud {
+        margin: 0;
+    }
+    .parrafoInfo {
+        margin: 30px;
+    }
+}
